@@ -876,7 +876,7 @@ def main():
 
 
 try:
-	users = ["root", "root"]
+	users = ["ATRAC", "ATRAC"]
 	clear = "clear"
 	os.system (clear)
 	username = getpass.getpass ("[+] Username: ")
@@ -906,7 +906,7 @@ try:
 except KeyboardInterrupt:
 	exit()
 try:
-	passwords = ["root", "root"]
+	passwords = ["ATRAC", "ATRAC"]
 	password = getpass.getpass ("[+] Password: ")
 	if user == "ATRAC":
 		if password == passwords[0]:
